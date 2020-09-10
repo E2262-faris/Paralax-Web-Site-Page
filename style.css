@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+
+}
+
+/* --------------------->> */
+
+#main-navigation{
+    background-color: rgba(13, 67, 71, 0.9);
+    padding: 10px;
+}
+
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    padding-left: 20px ;
+}
+
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right:10px;
+}
+
+#main-navigation a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+    background-color: rgb(36, 140, 158);
+    border-radius: 2px;
+}
+
+ #main-navigation a:hover{
+    background-color: goldenrod;
+}
+
+#main-navigation a.current{
+    background-color: coral;
+    border-radius: 5px; 
+}
+
+
+/* --------------------->> */
+
+
+
+#section1-div1{
+    background-image: url(./img/Image1.jpg);
+    width: 100%;
+    height: 100%;
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    
+}
+
+#pk1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 25px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    padding:30px 20px;
+    position:absolute;
+    top:50%;
+    width:50%;
+    text-align:center;
+    margin-left:25%;
+    text-transform:uppercase;
+
+   
+
+}
+
+
+#section1-part2{
+    background-color: rgba(40, 146, 216, 0.6);
+    font: size 30px;
+    padding-top: px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+
+
+
+
+/* ------------------------------------------------------- */
+
+#section2-div1{
+    background-image: url(./img/Image2.jpg);
+    width: 100%;
+    height: 100%;
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+#pk2 {
+
+    font-size: 25px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    padding:30px 20px;
+    position:absolute;
+    top:50%;
+    width:50%;
+    text-align:center;
+    margin-left:25%;
+    text-transform:uppercase;
+}
+
+
+#section2-part2{
+    background-color: rgba(214, 74, 74, 0.6);
+    font: size 30px;
+    padding-top: px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+
+/* ---------------------------------- */
+
+#section3-div1{
+    background-image: url(./img/Image3.jpg);
+    width: 100%;
+    height: 100%;
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+#pk3 {
+
+    font-size: 25px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    padding:30px 20px;
+    position:absolute;
+    top:50%;
+    width:50%;
+    text-align:center;
+    margin-left:25%;
+    text-transform:uppercase;
+
+
+
+}
+
+
+#section3-part2{
+    background-color: rgba(80, 233, 75, 0.6);
+    font: size 30px;
+    padding-top: px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+/* }---------------------- */
+
+#section4{
+    background-image: url(./img/Image1.jpg);
+    width: 100%;
+    height: 100%;
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+#pk4 {
+    background-color: rgba(0, 0,0, 0.6);
+    font-size: 25px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    padding:30px 20px;
+    position:absolute;
+    top:50%;
+    width:50%;
+    text-align:center;
+    margin-left:25%;
+    text-transform:uppercase;
+}
+/* -------------------- */
+#footer-banner img{
+    width: 100%;
+}
+
+
+#pic-contact{
+    background-color: rgba(13, 67, 71, 0.9);
+    padding: 10px;
+    text-align: center;
+    color: seashell;
+    margin-top:-4px ;
+}
+
+#pic-contact img{
+    display: inline-block;
+    width: 35px;
+    padding-left: 20px ;
+    
+}
+
+#pic-contact a{
+    color:white
+
+}
+
+#pic-contact a:hover{
+    color: rgb(44, 207, 3);
+
+}
+/* --------------- */
+
+
+}
+
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
