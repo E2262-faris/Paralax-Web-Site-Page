@@ -323,13 +323,13 @@ section {
       text-transform: uppercase; }
   section:first-of-type {
     height: 100vh;
-    background-image: url("https://picsum.photos/800/600?random=1"); }
-  section:nth-of-type(3) {
-    background-image: url("https://picsum.photos/800/600?random=2"); }
-  section:nth-of-type(5) {
-    background-image: url("https://picsum.photos/800/600?random=3"); }
-  section:nth-of-type(7) {
     background-image: url("https://picsum.photos/800/600?random=4"); }
+  section:nth-of-type(3) {
+    background-image: url("https://picsum.photos/800/600?random=1"); }
+  section:nth-of-type(5) {
+    background-image: url("https://picsum.photos/800/600?random=2"); }
+  section:nth-of-type(7) {
+    background-image: url("https://picsum.photos/800/600?random=3"); }
 
 html, body {
   height: 100%;
